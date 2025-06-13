@@ -42,7 +42,8 @@ body {
 
 .product-grid {
   width: 80%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
   padding: 20px;
   gap: 20px;
